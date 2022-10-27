@@ -1,0 +1,11 @@
+.page {
+	@apply h-[40px] mt-3 bg-emerald-400;
+	.wrapperFormPage {
+		.category {
+			@apply flex gap-3;
+			button {
+				@apply border-none h-[40px] text-center text-[#233d3d] hover:bg-bottom;
+			}
+		}
+	}
+}

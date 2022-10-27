@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: rgb(27, 83, 83);
+}
+
+#root {
+	@apply max-w-[1240px] mx-auto p-5;
+}
